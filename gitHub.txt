@@ -1,0 +1,39 @@
+Clone with Linux:
+
+mkdir git-repos
+cd git-repos
+git clone https://github.com/KaileyCozart/fileName.git
+
+
+
+Configure GitHub:
+
+git config --global user.name "KaileyCozart"
+git config --global user.name
+git config --global user.email "kaileync@comcast.net"
+git config --global user.email
+
+
+
+Clone, Push, Pull GitHub:
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git push  <REMOTENAME> <BRANCHNAME> 
+//To push local changes to online repo
+git push origin master
+
+
+
+Helpful Git Commands:
+
+git log
+git add :/
+git commit -m 'describe commit here: added css for buttons'
+git pull
+git push
+
+
+
+Git Branches:
+
+https://backlogtool.com/git-guide/en/stepup/stepup2_5.html

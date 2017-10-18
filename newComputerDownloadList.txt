@@ -35,3 +35,22 @@ Origin (pc only):
 
 Steam (pc only):
     //download and login
+
+Install Node Version Manager:
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+    //close terminal and reopen it; then typer the following:
+    command -v nvm
+    //to install the latest version of node:
+    nvm install node
+
+
+Install Docker for Ubuntu:
+    sudo apt-get remove docker docker-engine
+    sudo apt-get -y install docker.io
+    sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker
+    sudo sed -i '$acomplete -F _docker docker' /etc/bash_completion.d/docker.io
+    sudo docker run hello-world
+
+
+Turn on Bluetooth:
+    /etc/init.d/bluetooth start
